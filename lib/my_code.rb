@@ -3,6 +3,7 @@ def map_to_negativize(array)
   count = 0 
   new_array = []
   while count < array.length do 
+<<<<<<< HEAD
     negative = (array[count]*(-1))
     new_array << negative
     count += 1 
@@ -81,3 +82,10 @@ def reduce_to_any_true(array)
   end 
   true_or_false
 end
+=======
+    negative = (array[count]*-1)
+    new_array << negative
+  end
+  new_array
+end
+>>>>>>> 95710dd5035abcdc73d9e8d2bfac7ba85212c311
